@@ -1,0 +1,20 @@
+{
+  "name": "multi-agent-orchestration",
+  "version": "1.0.0",
+  "description": "Multi-Agent Orchestration Masterclass",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "example:01-basic-orchestrator": "npm run build && node dist/examples/01-basic-orchestrator.js",
+    "example:02-codebase-analysis": "npm run build && node dist/examples/02-codebase-analysis.js",
+    "example:03-parallel-refactor": "npm run build && node dist/examples/03-parallel-refactor.js",
+    "test": "jest"
+  },
+  "keywords": ["multi-agent", "orchestration", "ai", "typescript"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
