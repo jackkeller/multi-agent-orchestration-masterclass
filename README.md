@@ -21,7 +21,7 @@ Based on Claude Code's Coordinator Mode and OpenClaw's subagent system:
 │  - Receives high-level tasks                                │
 │  - Breaks down into subtasks                                │
 │  - Spawns worker agents                                     │
-│  - Synthesizes results                                       │
+│  - Synthesizes results                                      │
 └──────────────────┬──────────────────────────────────────────┘
                    │
     ┌──────────────┼──────────────┐
