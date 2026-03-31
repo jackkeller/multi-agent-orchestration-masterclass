@@ -72,8 +72,10 @@ Based on Claude Code's Coordinator Mode and OpenClaw's subagent system:
 ## Quick Start
 
 ```bash
-cd 01-fundamentals
+git clone https://github.com/jackkeller/multi-agent-orchestration-masterclass.git
+cd multi-agent-orchestration-masterclass
 npm install
+npm run build
 npm run example:01-basic-orchestrator
 ```
 
